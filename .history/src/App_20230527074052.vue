@@ -15,9 +15,8 @@ export default ({
     this.getList()
   },
   methods: {
-    async getList () {
+    getList () {
       const { data: res } = await getListAPI()
-      console.log(res)
     }
   }
 })
